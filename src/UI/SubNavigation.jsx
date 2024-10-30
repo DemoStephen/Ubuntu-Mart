@@ -8,10 +8,10 @@ export default function SubNavigation() {
       aria-label="Services Sub-navigation"
       className="flex items-center justify-between py-4 px-[5%] md:px-[10%] bg-white shadow-sm"
     >
-      <div className="w-10 md:hidden">
+      <div className="w-10 lg:hidden">
         <img src={logo} alt="logo" className="w-full" />
       </div>
-      <ul className="hidden md:flex items-center gap-3">
+      <ul className="hidden lg:flex items-center gap-3">
         <List name="Home" />
         <List name="Shop" />
         <List name="Pages" />
@@ -20,7 +20,7 @@ export default function SubNavigation() {
       </ul>
       <div className="flex items-center gap-4 md:gap-8">
         <Contact />
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <Icon>
             <path
               d="M4 6H20M4 12H20M4 18H20"
@@ -31,7 +31,7 @@ export default function SubNavigation() {
             />
           </Icon>
         </div>
-        <div className="hidden md:flex items-center gap-2">
+        <div className="hidden lg:flex items-center gap-2">
           <Icon>
             <>
               <g clipPath="url(#clip0_15_152)">
