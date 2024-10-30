@@ -7,25 +7,26 @@ import image3 from "../assets/headerasset12.png";
 import image4 from "../assets/headerasset11.png";
 import image5 from "../assets/headerasset10.png";
 
+import vector from "../assets/vector1.png";
 export default function Trust() {
   return (
     <section className="relative px-[10%] py-10 bg-gray-50 flex items-center gap-8 justify-between flex-col md:flex-row">
-      <div className="flex items-start gap-4 w-full md:w-3/5 overflow-hidden rounded-lg flex-col md:flex-row">
+      <div className="flex items-start gap-4 w-full md:w-1/3 lg:w-3/5 overflow-hidden rounded-lg flex-col md:flex-row z-10">
         <img
           src={asset2}
           alt="delivery truck"
-          className="w-fit  md:flex hidden"
+          className="w-fit  lg:flex hidden"
         />
         <img src={asset1} alt="Our farmers harvesting" className="w-fit" />
       </div>
-      <div className="md:w-2/5">
-        <h2 className="text-3xl font-semibold mb-4 md:text-left text-center">
+      <div className="md:w-2/3 lg:w-2/5">
+        <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold mb-4 md:text-left text-center">
           100% Trusted Organic Food Store
         </h2>
         <div className="flex items-start gap-4">
           <span className="p-2 mt-2 bg-orange-500 rounded-full"></span>
           <div className="mb-4">
-            <h4 className="mb-2 text-[1.15rem] font-semibold">
+            <h4 className="mb-2 text-xl font-semibold">
               Healthy & natural food for lovers of healthy food.
             </h4>
             <p>
@@ -35,11 +36,10 @@ export default function Trust() {
             </p>
           </div>
         </div>
-
         <div className="flex items-start gap-4">
           <span className="p-2 mt-2 bg-orange-500 rounded-full"></span>
           <div className="mb-4">
-            <h4 className="mb-2 text-[1.15rem] font-semibold">
+            <h4 className="mb-2 text-xl font-semibold">
               Every day fresh and quality products for you.
             </h4>
             <p>
@@ -53,6 +53,8 @@ export default function Trust() {
           Shop Now
         </button>
       </div>
+
+      <img src={vector} alt="vector" className="absolute top-0 left-0" />
       <img
         src={image1}
         alt="componet images"
