@@ -6,7 +6,7 @@ import box from "../assets/bg-spot4.png";
 export default function SellingPoint() {
   return (
     <section className="py-6 px-[10%]">
-      <section className="flex flex-col md:flex-row items-center gap-4 md:-mb-1">
+      <section className="flex flex-col md:grid md:grid-cols-2 lg:flex lg:flex-row items-center gap-4 md:-mb-1">
         <Point
           title="Free Shipping"
           text="Free shipping with discount"
@@ -28,7 +28,7 @@ export default function SellingPoint() {
           image={box}
         />
       </section>
-      <hr className="w-full border-2 hidden md:flex" />
+      <hr className="w-full border-2 hidden lg:flex" />
     </section>
   );
 }
