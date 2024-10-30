@@ -20,16 +20,16 @@ export default function Header() {
       </div>
       <div className="md:w-1/2 text-center md:text-left">
         <p className="uppercase text-orange-400">Welcome to Ubuntumart</p>
-        <h1 className="md:text-6xl text-4xl font-semibold mb-4 md:pr-8">
+        <h1 className="lg:text-5xl text-4xl font-semibold lg:mb-4 lg:pr-10">
           Fresh & Healthy Organic Food
         </h1>
-        <p className="md:text-2xl text-xl font-semibold">
+        <p className="lg:text-2xl text-xl font-semibold my-2">
           Sale up to <span className="text-orange-400">30% OFF</span>
         </p>
         <p className="my-2">
           Free shipping on all your order. we deliver, you enjoy
         </p>
-        <button className="flex items-center bg-orange-400 text-white gap-4 py-2 px-8 rounded-full md:mt-4 md:m-0 m-auto group">
+        <button className="flex items-center bg-orange-400 text-white gap-4 py-2 px-6 lg:px-8 rounded-full lg:mt-4 md:m-0 m-auto group">
           Shop now
           <Icon>
             <path
