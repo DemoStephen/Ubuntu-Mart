@@ -1,19 +1,19 @@
-import basketFruth from "../assets/fruth.png";
-import asset1 from "../assets/headerasset1.png";
-import asset2 from "../assets/headerasset2.png";
-import asset3 from "../assets/headerasset3.png";
-import asset4 from "../assets/headerasset4.png";
-import asset5 from "../assets/headerasset5.png";
-import asset6 from "../assets/headerasset6.png";
-import asset7 from "../assets/headerasset7.png";
-import asset8 from "../assets/headerasset8.png";
+import fruits from "../assets/images/images/fruth.png";
+import vector1 from "../assets/images/Vector/vector_assets1.png";
+import vector2 from "../assets/images/Vector/vector_assets2.png";
+import vector3 from "../assets/images/Vector/vector_assets3.png";
+import vector4 from "../assets/images/Vector/vector_assets4.png";
+import vector5 from "../assets/images/Vector/vector_assets5.png";
+import vector6 from "../assets/images/Vector/vector_assets6.png";
+import vector7 from "../assets/images/Vector/vector_assets7.png";
+import vector8 from "../assets/images/Vector/vector_assets8.png";
 import Icon from "../components/Icon";
 export default function Header() {
   return (
     <header className="md:flex items-center px-[10%] py-8 md:py-4 bg-gray-50 gap-4 relative overflow-hidden">
       <div className="md:w-1/2">
         <img
-          src={basketFruth}
+          src={fruits}
           alt="A wicker basket filled with a variety of fresh fruits and vegetables, including apples, oranges, grapes, bananas, pineapple, lettuce, carrots, bell peppers, and tomatoes, arranged in a colorful and vibrant display."
           className="w-full"
         />
@@ -43,42 +43,42 @@ export default function Header() {
         </button>
       </div>
       <img
-        src={asset1}
+        src={vector1}
         alt="header assets"
         className="absolute top-0 right-0 w-20"
       />
       <img
-        src={asset2}
+        src={vector2}
         alt="header assets"
         className="absolute bottom-1/3 md:bottom-8 w-20 md:w-28 left-2 md:left-8"
       />
       <img
-        src={asset3}
+        src={vector3}
         alt="header assets"
         className="absolute top-8 md:top-1/4 w-20 md:w-24 left-1 md:left-10"
       />
       <img
-        src={asset4}
+        src={vector4}
         alt="header assets"
         className="absolute top-0 left-1/2 w-20 animate-pulse"
       />
       <img
-        src={asset5}
+        src={vector5}
         alt="header assets"
         className="absolute right-[1rem] md:left-3/4 w-16 md:w-24 md:top-[4rem] top-1/2 animate-pulse"
       />
       <img
-        src={asset6}
+        src={vector6}
         alt="header assets"
         className="absolute bottom-0 right-0 w-20 md:w-28 animate-pulse"
       />
       <img
-        src={asset7}
+        src={vector7}
         alt="header assets"
         className="absolute top-[-2rem] rotate-180 w-20 blur-[1px] animate-pulse"
       />
       <img
-        src={asset8}
+        src={vector8}
         alt="header assets"
         className="absolute bottom-0 md:left-1/4  animate-bounce"
       />

@@ -1,7 +1,7 @@
 import Contact from "../components/Contact";
 import Icon from "../components/Icon";
 import List from "../components/List";
-import logo from "../assets/logo.png";
+import logo from "../assets/images/logo.png";
 export default function SubNavigation() {
   return (
     <nav

@@ -1,13 +1,12 @@
-import asset1 from "../assets/avatar1.png";
-import asset2 from "../assets/avatar2.png";
+import asset1 from "../assets/images/images/avatar1.png";
+import asset2 from "../assets/images/images/avatar2.png";
 
-import image1 from "../assets/headerasset14.png";
-import image2 from "../assets/headerasset13.png";
-import image3 from "../assets/headerasset12.png";
-import image4 from "../assets/headerasset11.png";
-import image5 from "../assets/headerasset10.png";
-
-import vector from "../assets/vector1.png";
+import vector1 from "../assets/images/Vector/vector_assets14.png";
+import vector2 from "../assets/images/Vector/vector_assets13.png";
+import vector3 from "../assets/images/Vector/vector_assets12.png";
+import vector4 from "../assets/images/Vector/vector_assets11.png";
+import vector5 from "../assets/images/Vector/vector_assets10.png";
+import vector6 from "../assets/images/Vector/vector_assets16.png";
 export default function Trust() {
   return (
     <section className="relative px-[10%] py-10 bg-gray-50 flex items-center gap-8 justify-between flex-col md:flex-row">
@@ -54,29 +53,29 @@ export default function Trust() {
         </button>
       </div>
 
-      <img src={vector} alt="vector" className="absolute top-0 left-0" />
+      <img src={vector6} alt="vector" className="absolute top-0 left-0" />
       <img
-        src={image1}
+        src={vector1}
         alt="componet images"
         className="absolute bottom-0 right-[20%] w-20"
       />
       <img
-        src={image2}
+        src={vector2}
         alt="componet images"
         className="absolute top-1/4 right-4 md:w-fit w-24"
       />
       <img
-        src={image3}
+        src={vector3}
         alt="componet images"
         className="absolute md:bottom-8 bottom-1/4 md:right-auto right-0 w-20"
       />
       <img
-        src={image4}
+        src={vector4}
         alt="componet images"
         className="absolute top-3/4 left-4 md:w-20 w-10"
       />
       <img
-        src={image5}
+        src={vector5}
         alt="componet images"
         className="absolute -top-10 right-1/4"
       />

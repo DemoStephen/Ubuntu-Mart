@@ -1,9 +1,10 @@
 import Sales from "../components/Sales";
-import discount from "../assets/discount1.png";
-import countdown from "../assets/discount2.png";
-import vector from "../assets/vector2.png";
-import vector2 from "../assets/headerasset2.png";
-import vector3 from "../assets/headerasset5.png";
+import discount from "../assets/images/images/discount1.png";
+import vector from "../assets/images/Vector/vector_assets17.png";
+import vector2 from "../assets/images/Vector/vector_assets2.png";
+import vector3 from "../assets/images/Vector/vector_assets5.png";
+import Timer from "../components/Timer";
+import countdown from "../assets/images/images/discount2.png";
 
 export default function DiscountSales() {
   return (
@@ -22,30 +23,15 @@ export default function DiscountSales() {
         title="Sales of the Year"
         point="Father christmas week"
       >
-        <div className="my-4 flex items-start gap-2">
-          <div className="flex flex-col text-center">
-            <span className="text-2xl">00</span>
-            <span className="text-[0.65rem]">Days</span>
-          </div>
-          <span className="text-2xl">:</span>
-          <div className="flex flex-col text-center">
-            <span className="text-2xl">03</span>
-            <span className="text-[0.65rem]">Hours</span>
-          </div>
-          <span className="text-2xl">:</span>
-          <div className="flex flex-col text-center">
-            <span className="text-2xl">00</span>
-            <span className="text-[0.65rem]">Mins</span>
-          </div>
-          <span className="text-2xl">:</span>
-          <div className="flex flex-col text-center">
-            <span className="text-2xl">00</span>
-            <span className="text-[0.65rem]">Secs</span>
-          </div>
-        </div>
+        <Timer />
       </Sales>
+
       <img src={vector2} alt="pear" className="absolute top-8 left-0 w-40" />
-      <img src={vector3} alt="onion" className="absolute" />
+      <img
+        src={vector3}
+        alt="onion"
+        className="absolute -bottom-20 left-4 w-40"
+      />
     </section>
   );
 }
