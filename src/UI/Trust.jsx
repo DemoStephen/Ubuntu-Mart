@@ -7,6 +7,7 @@ import vector3 from "../assets/images/Vector/vector_assets12.png";
 import vector4 from "../assets/images/Vector/vector_assets11.png";
 import vector5 from "../assets/images/Vector/vector_assets10.png";
 import vector6 from "../assets/images/Vector/vector_assets16.png";
+import ButtonShopNow from "../components/ButtonShopNow";
 export default function Trust() {
   return (
     <section className="relative px-[10%] py-10 bg-gray-50 flex items-center gap-8 justify-between flex-col md:flex-row">
@@ -48,9 +49,7 @@ export default function Trust() {
             </p>
           </div>
         </div>
-        <button className="bg-orange-500 px-12 py-3 rounded-full text-white font-semibold w-full md:w-auto mt-8 md:mt-4">
-          Shop Now
-        </button>
+        <ButtonShopNow />
       </div>
 
       <img src={vector6} alt="vector" className="absolute top-0 left-0" />

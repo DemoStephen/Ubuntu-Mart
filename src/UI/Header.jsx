@@ -7,7 +7,7 @@ import vector5 from "../assets/images/Vector/vector_assets5.png";
 import vector6 from "../assets/images/Vector/vector_assets6.png";
 import vector7 from "../assets/images/Vector/vector_assets7.png";
 import vector8 from "../assets/images/Vector/vector_assets8.png";
-import Icon from "../components/Icon";
+import ButtonShopNow from "../components/ButtonShopNow";
 export default function Header() {
   return (
     <header className="md:flex items-center px-[10%] py-8 md:py-4 bg-gray-50 gap-4 relative overflow-hidden">
@@ -29,18 +29,7 @@ export default function Header() {
         <p className="my-2">
           Free shipping on all your order. we deliver, you enjoy
         </p>
-        <button className="flex items-center bg-orange-400 text-white gap-4 py-2 px-6 lg:px-8 rounded-full lg:mt-4 md:m-0 m-auto group">
-          Shop now
-          <Icon>
-            <path
-              d="M4 12H20M20 12L16 8M20 12L16 16"
-              stroke="#ffff"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </Icon>
-        </button>
+        <ButtonShopNow />
       </div>
       <img
         src={vector1}
