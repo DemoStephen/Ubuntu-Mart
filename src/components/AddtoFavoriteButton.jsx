@@ -1,9 +1,16 @@
+/* eslint-disable react/prop-types */
 import Icon from "./Icon";
 
-export default function AddToFavorite() {
+export default function AddToFavorite({ deals }) {
   const buttonClass = "bg-slate-50 hover:bg-green-500 rounded-full";
+  let containerClass = "flex gap-2";
+
+  if (!deals) {
+    containerClass +=
+      "  duration-500 absolute -top-32 group-hover:top-4 right-4 flex-col";
+  }
   return (
-    <div className="absolute -top-32 group-hover:top-4 right-4 flex flex-col gap-2 duration-500">
+    <div className={containerClass}>
       <button className={buttonClass}>
         <p className="hover:invert p-2">
           <Icon>

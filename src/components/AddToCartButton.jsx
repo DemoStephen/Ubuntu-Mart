@@ -1,9 +1,16 @@
+/* eslint-disable react/prop-types */
 import Icon from "./Icon";
-export default function AddToCartButton() {
+export default function AddToCartButton({ deals }) {
+  let classes = "hover:invert";
+  if (deals) {
+    classes += " p-2";
+  } else {
+    classes += " p-3";
+  }
   return (
     <button className="rounded-full overflow-hidden bg-gray-200 hover:bg-orange-500">
-      <p className="p-3 hover:invert">
-        <Icon width="32">
+      <p className={classes}>
+        <Icon width={deals ? 28 : 32}>
           <path
             d="M9 6V5C9 3.34315 10.3431 2 12 2C13.6569 2 15 3.34315 15 5V6"
             stroke="#000"
