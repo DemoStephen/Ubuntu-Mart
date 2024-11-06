@@ -1,3 +1,4 @@
+import BestSeller from "../UI/BestSellerProducts";
 import DiscountSales from "../UI/DiscountSales";
 import FeaturedProduct from "../UI/FeaturedProduct";
 import Header from "../UI/Header";
@@ -18,6 +19,7 @@ export default function Home() {
       <Trust />
       <SellingPoint2 />
       <DiscountSales />
+      <BestSeller />
     </>
   );
 }
