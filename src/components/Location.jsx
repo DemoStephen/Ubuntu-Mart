@@ -1,5 +1,5 @@
 import Select from "./Select";
-import { CURRENCIES, LANGUAGES } from "../util/data";
+import { LANGUAGE_CURRENCY } from "../util/database";
 export default function Location() {
   return (
     <div className="flex items-center justify-center md:justify-between bg-gray-50 py-2 px-[5%] md:px-[10%] text-xs ">
@@ -31,8 +31,8 @@ export default function Location() {
         <span>Store Location: Egbeda - 344, Iyanapaja, Nigeria</span>
       </p>
       <p className="hidden md:flex items-center gap-2">
-        <Select data={LANGUAGES} />
-        <Select data={CURRENCIES} />
+        <Select data={LANGUAGE_CURRENCY.LANGUAGES} />
+        <Select data={LANGUAGE_CURRENCY.CURRENCIES} />
       </p>
     </div>
   );
