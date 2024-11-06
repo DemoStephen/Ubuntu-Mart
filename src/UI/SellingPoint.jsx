@@ -1,8 +1,9 @@
 import Point from "../components/Point";
-import shipping from "../assets/bg-spot2.png";
-import customercare from "../assets/bg-spot.png";
-import cart from "../assets/bg-spot3.png";
-import box from "../assets/bg-spot4.png";
+import customercare from "../assets/images/png/point1.png";
+import shipping from "../assets/images/png/point2.png";
+import cart from "../assets/images/png/point3.png";
+import box from "../assets/images/png/point4.png";
+
 export default function SellingPoint() {
   return (
     <section className="py-6 px-[10%]">
