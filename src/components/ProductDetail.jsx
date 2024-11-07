@@ -10,7 +10,7 @@ export default function ProductDetail({ ...props }) {
     newPrice = newPrice - newPrice * (props.discount / 100);
   }
   return (
-    <div>
+    <div className={props.specialDeal && "w-3/4"}>
       <p className="group-hover:text-green-500  font-semibold">
         {props.name || "Error Name"}
       </p>
