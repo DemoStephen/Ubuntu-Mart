@@ -7,7 +7,7 @@ export default function ProductDetail({ ...props }) {
   let newPrice = +props.price;
 
   if (+props.discount > 0) {
-    newPrice = newPrice * (props.discount / 100);
+    newPrice = newPrice - newPrice * (props.discount / 100);
   }
   return (
     <div>
@@ -24,7 +24,7 @@ export default function ProductDetail({ ...props }) {
             ${isNaN(newPrice.toFixed(2)) ? "Error Price" : newPrice.toFixed(2)}
           </span>
           {props.discount > 0 && props.discount && (
-            <span className="text-slate-500 line-through">
+            <span className="text-red-600 line-through">
               {isNaN(props.price.toFixed(2))
                 ? "Error Discount"
                 : props.price.toFixed(2)}
