@@ -1,4 +1,5 @@
 import BestSeller from "../UI/BestSellerProducts";
+import Blogs from "../UI/Blogs";
 import Deals from "../UI/Deals";
 import DiscountSales from "../UI/DiscountSales";
 import FeaturedProduct from "../UI/FeaturedProduct";
@@ -22,6 +23,7 @@ export default function Home() {
       <DiscountSales />
       <BestSeller />
       <Deals />
+      <Blogs />
     </>
   );
 }
