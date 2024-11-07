@@ -3,52 +3,56 @@
  */
 
 //  Vegetables Images
-import cabbage from "../assets/images/Vegetables/cabbage.png";
 import capicum from "../assets/images/Vegetables/capsicum.png";
-import carrot from "../assets/images/Vegetables/cabbage.png";
+import lettuce from "../assets/images/Vegetables/lettuce.png";
+import cabbage from "../assets/images/Vegetables/cabbage.png";
+import tomato from "../assets/images/Vegetables/tomato.png";
+
 import broccoli from "../assets/images/Vegetables/cabbage.png";
 import spinach from "../assets/images/Vegetables/cabbage.png";
-import lettuce from "../assets/images/Vegetables/cabbage.png";
-import onion from "../assets/images/Vegetables/cabbage.png";
-import garlic from "../assets/images/Vegetables/cabbage.png";
-import tomato from "../assets/images/Vegetables/cabbage.png";
-import cucumber from "../assets/images/Vegetables/cabbage.png";
+import cucumber from "../assets/images/Vegetables/tomato.png";
+import carrot from "../assets/images/Vegetables/cabbage.png";
+import garlic from "../assets/images/Vegetables/tomato.png";
+import onion from "../assets/images/Vegetables/tomato.png";
 
 //  Fruits Images
 import apple from "../assets/images/Fruits/apple.png";
+
+import watermelon from "../assets/images/Fruits/apple.png";
+import strawberry from "../assets/images/Fruits/apple.png";
+import blueberry from "../assets/images/Fruits/apple.png";
+import pineapple from "../assets/images/Fruits/apple.png";
 import banana from "../assets/images/Fruits/apple.png";
 import orange from "../assets/images/Fruits/apple.png";
 import mango from "../assets/images/Fruits/apple.png";
 import grape from "../assets/images/Fruits/apple.png";
-import watermelon from "../assets/images/Fruits/apple.png";
-import strawberry from "../assets/images/Fruits/apple.png";
-import pineapple from "../assets/images/Fruits/apple.png";
 import kiwi from "../assets/images/Fruits/apple.png";
-import blueberry from "../assets/images/Fruits/apple.png";
 
 //  Meats Images
-import meat from "../assets/images/Meats/product4.png";
-import beef from "../assets/images/Meats/product4.png";
-import pork from "../assets/images/Meats/product4.png";
-import lamb from "../assets/images/Meats/product4.png";
-import bacon from "../assets/images/Meats/product4.png";
-import turkey from "../assets/images/Meats/product4.png";
+import meat from "../assets/images/Meats/beef.png";
+import turkey from "../assets/images/Meats/turkey.png";
+import beef from "../assets/images/Meats/beef.png";
+
+import pork from "../assets/images/Meats/beef.png";
+import lamb from "../assets/images/Meats/beef.png";
+import bacon from "../assets/images/Meats/turkey.png";
 import ribs from "../assets/images/Meats/product4.png";
 import ham from "../assets/images/Meats/product4.png";
 import sausage from "../assets/images/Meats/product4.png";
 import steak from "../assets/images/Meats/product4.png";
 
 //  Fish Images
-import fish from "../assets/images/Fishes/product4.png";
-import tuna from "../assets/images/Fishes/product4.png";
-import cod from "../assets/images/Fishes/product4.png";
-import trout from "../assets/images/Fishes/product4.png";
-import tilapia from "../assets/images/Fishes/product4.png";
-import mackerel from "../assets/images/Fishes/product4.png";
-import sardine from "../assets/images/Fishes/product4.png";
-import shrimp from "../assets/images/Fishes/product4.png";
-import crab from "../assets/images/Fishes/product4.png";
-import lobster from "../assets/images/Fishes/product4.png";
+import fish from "../assets/images/Fishes/fish.png";
+import tilapia from "../assets/images/Fishes/tilapia.png";
+
+import tuna from "../assets/images/Fishes/tilapia.png";
+import cod from "../assets/images/Fishes/tilapia.png";
+import trout from "../assets/images/Fishes/tilapia.png";
+import mackerel from "../assets/images/Fishes/fish.png";
+import sardine from "../assets/images/Fishes/fish.png";
+import shrimp from "../assets/images/Fishes/fish.png";
+import crab from "../assets/images/Fishes/fish.png";
+import lobster from "../assets/images/Fishes/fish.png";
 
 // Drinks Images
 import drinks from "../assets/images/Drinks/product4.png";
