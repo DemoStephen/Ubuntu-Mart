@@ -12,10 +12,10 @@ export default function SubNavigation() {
         <img src={logo} alt="logo" className="w-full" />
       </div>
       <ul className="hidden lg:flex items-center gap-3">
-        <List name="Home" />
-        <List name="Shop" />
+        <List name="Home" href="#" />
+        <List name="Shop" href="#shop" />
         <List name="Pages" />
-        <List name="Blog" />
+        <List name="Blog" href="#blog" />
         <List name="About Us" />
       </ul>
       <div className="flex items-center gap-4 md:gap-8">
