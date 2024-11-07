@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import Icon from "./Icon";
-export default function ViewAll() {
+export default function ViewAll({ text }) {
   return (
     <button className="flex items-center gap-2 text-orange-500">
-      View All{" "}
+      {text ? text : "View All "}
       <Icon>
         <path
           d="M4 12H20M20 12L16 8M20 12L16 16"
