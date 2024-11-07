@@ -83,38 +83,52 @@ import fishes from "../assets/images/Categories/fishes.png";
 import drinksList from "../assets/images/Categories/drinks.png";
 import snacksList from "../assets/images/Categories/snacks.png";
 
-export const CATEGORIES = [
-  {
-    image: vegetables,
-    name: "Vegetables",
-    text: 165,
-  },
-  {
-    image: fruits,
-    name: "Fruits",
-    text: 165,
-  },
-  {
-    image: meats,
-    name: "Meat",
-    text: 165,
-  },
-  {
-    image: fishes,
-    name: "Fishes",
-    text: 165,
-  },
-  {
-    image: drinksList,
-    name: "Drinks",
-    text: 165,
-  },
-  {
-    image: snacksList,
-    name: "Snacks",
-    text: 165,
-  },
-];
+export const LANGUAGE_CURRENCY = {
+  LANGUAGES: [
+    { code: "EN", name: "English" },
+    { code: "ES", name: "Spanish" },
+    { code: "FR", name: "French" },
+    { code: "DE", name: "German" },
+    { code: "ZH", name: "Chinese" },
+    { code: "JA", name: "Japanese" },
+    { code: "Ru", name: "Russian" },
+    { code: "Pt", name: "Portuguese" },
+    { code: "It", name: "Italian" },
+    { code: "Nl", name: "Dutch" },
+    { code: "Ko", name: "Korean" },
+    { code: "Ar", name: "Arabic" },
+    { code: "Hi", name: "Hindi" },
+    { code: "El", name: "Greek" },
+    { code: "He", name: "Hebrew" },
+    { code: "Sv", name: "Swedish" },
+    { code: "Tr", name: "Turkish" },
+    { code: "Da", name: "Danish" },
+    { code: "Pl", name: "Polish" },
+    { code: "Th", name: "Thai" },
+  ],
+  CURRENCIES: [
+    { code: "USD", name: "United States Dollar" },
+    { code: "EUR", name: "Euro" },
+    { code: "JPY", name: "Japanese Yen" },
+    { code: "GBP", name: "British Pound Sterling" },
+    { code: "AUD", name: "Australian Dollar" },
+    { code: "CAD", name: "Canadian Dollar" },
+    { code: "CHF", name: "Swiss Franc" },
+    { code: "CNY", name: "Chinese Yuan" },
+    { code: "SEK", name: "Swedish Krona" },
+    { code: "NZD", name: "New Zealand Dollar" },
+    { code: "MXN", name: "Mexican Peso" },
+    { code: "SGD", name: "Singapore Dollar" },
+    { code: "HKD", name: "Hong Kong Dollar" },
+    { code: "NOK", name: "Norwegian Krone" },
+    { code: "KRW", name: "South Korean Won" },
+    { code: "TRY", name: "Turkish Lira" },
+    { code: "INR", name: "Indian Rupee" },
+    { code: "RUB", name: "Russian Ruble" },
+    { code: "BRL", name: "Brazilian Real" },
+    { code: "ZAR", name: "South African Rand" },
+  ],
+};
 
 export const PRODUCTS = {
   vegetables: [
@@ -514,49 +528,35 @@ export const PRODUCTS = {
   ],
 };
 
-export const LANGUAGE_CURRENCY = {
-  LANGUAGES: [
-    { code: "EN", name: "English" },
-    { code: "ES", name: "Spanish" },
-    { code: "FR", name: "French" },
-    { code: "DE", name: "German" },
-    { code: "ZH", name: "Chinese" },
-    { code: "JA", name: "Japanese" },
-    { code: "Ru", name: "Russian" },
-    { code: "Pt", name: "Portuguese" },
-    { code: "It", name: "Italian" },
-    { code: "Nl", name: "Dutch" },
-    { code: "Ko", name: "Korean" },
-    { code: "Ar", name: "Arabic" },
-    { code: "Hi", name: "Hindi" },
-    { code: "El", name: "Greek" },
-    { code: "He", name: "Hebrew" },
-    { code: "Sv", name: "Swedish" },
-    { code: "Tr", name: "Turkish" },
-    { code: "Da", name: "Danish" },
-    { code: "Pl", name: "Polish" },
-    { code: "Th", name: "Thai" },
-  ],
-  CURRENCIES: [
-    { code: "USD", name: "United States Dollar" },
-    { code: "EUR", name: "Euro" },
-    { code: "JPY", name: "Japanese Yen" },
-    { code: "GBP", name: "British Pound Sterling" },
-    { code: "AUD", name: "Australian Dollar" },
-    { code: "CAD", name: "Canadian Dollar" },
-    { code: "CHF", name: "Swiss Franc" },
-    { code: "CNY", name: "Chinese Yuan" },
-    { code: "SEK", name: "Swedish Krona" },
-    { code: "NZD", name: "New Zealand Dollar" },
-    { code: "MXN", name: "Mexican Peso" },
-    { code: "SGD", name: "Singapore Dollar" },
-    { code: "HKD", name: "Hong Kong Dollar" },
-    { code: "NOK", name: "Norwegian Krone" },
-    { code: "KRW", name: "South Korean Won" },
-    { code: "TRY", name: "Turkish Lira" },
-    { code: "INR", name: "Indian Rupee" },
-    { code: "RUB", name: "Russian Ruble" },
-    { code: "BRL", name: "Brazilian Real" },
-    { code: "ZAR", name: "South African Rand" },
-  ],
-};
+export const CATEGORIES = [
+  {
+    image: vegetables,
+    name: "Vegetables",
+    text: PRODUCTS.vegetables.length,
+  },
+  {
+    image: fruits,
+    name: "Fruits",
+    text: PRODUCTS.fruits.length,
+  },
+  {
+    image: meats,
+    name: "Meat",
+    text: PRODUCTS.fruits.length,
+  },
+  {
+    image: fishes,
+    name: "Fishes",
+    text: PRODUCTS.fishes.length,
+  },
+  {
+    image: drinksList,
+    name: "Drinks",
+    text: PRODUCTS.drinksList.length,
+  },
+  {
+    image: snacksList,
+    name: "Snacks",
+    text: PRODUCTS.snacksList.length,
+  },
+];
