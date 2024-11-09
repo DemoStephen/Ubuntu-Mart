@@ -5,6 +5,7 @@ import DiscountSales from "../UI/DiscountSales";
 import FeaturedProduct from "../UI/FeaturedProduct";
 import Header from "../UI/Header";
 import Navigation from "../UI/Navigation";
+import Partners from "../UI/Partners";
 import SellingPoint from "../UI/SellingPoint";
 import SellingPoint2 from "../UI/SellingPoint2";
 import Testimonial from "../UI/Testimonial";
@@ -26,6 +27,7 @@ export default function Home() {
       <Deals />
       <Blogs />
       <Testimonial />
+      <Partners />
     </>
   );
 }
