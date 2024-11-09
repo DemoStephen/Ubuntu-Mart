@@ -7,6 +7,7 @@ import Header from "../UI/Header";
 import Navigation from "../UI/Navigation";
 import SellingPoint from "../UI/SellingPoint";
 import SellingPoint2 from "../UI/SellingPoint2";
+import Testimonial from "../UI/Testimonial";
 import TopCategories from "../UI/TopCategories";
 import Trust from "../UI/Trust";
 
@@ -24,6 +25,7 @@ export default function Home() {
       <BestSeller />
       <Deals />
       <Blogs />
+      <Testimonial />
     </>
   );
 }

@@ -1,11 +1,12 @@
+/* eslint-disable react/prop-types */
 import Icon from "./Icon";
-
-export default function Rating() {
+export default function Rating({ rate }) {
   const result = [1, 2, 3, 4, 5];
+  let rating = rate ?? 4;
   return (
     <p className="flex">
       {result.map((input, index) => {
-        const colors = input > 4 ? "#8080802e" : "orange";
+        const colors = input > rating ? "#8080802e" : "orange";
         return (
           <Icon width="13" key={index}>
             <path
