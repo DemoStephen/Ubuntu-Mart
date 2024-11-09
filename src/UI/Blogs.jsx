@@ -12,7 +12,7 @@ import vector6 from "../assets/images/Vector/vector_assets23.png";
 export default function Blogs() {
   return (
     <section
-      className="relative md:px-[10%] py-16 bg-slate-100 overflow-hidden"
+      className="relative px-[5%] md:px-[10%] py-16 bg-slate-100 overflow-hidden"
       id="blog"
     >
       <header className="text-center mb-8">

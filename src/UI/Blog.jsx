@@ -12,7 +12,7 @@ export default function Blog({ image }) {
           <span className="text-xs uppercase text-gray-400">Nov</span>
         </span>
       </div>
-      <div className="flex items-center gap-3 p-4 py-4 text-sm text-gray-500">
+      <div className="flex items-center gap-3 p-4 py-4 md:text-xs lg:text-[0.6rem] xl:text-sm text-gray-500">
         <Tagline>
           <Icon width={20}>
             <path
@@ -55,7 +55,7 @@ export default function Blog({ image }) {
         </Tagline>
       </div>
       <div className="px-4 pb-4">
-        <p className="pb-2 group-hover:text-green-500">
+        <p className="pb-2 group-hover:text-green-500 text-sm">
           Curabitur porttitor orci eget neque accumsan venenatis. Nunc
           fermentum.
         </p>
