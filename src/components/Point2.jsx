@@ -12,7 +12,7 @@ export default function Point2({ number, text, children }) {
   // }, [value]);
 
   return (
-    <div className="backdrop-brightness-200 px-14 py-8 text-center rounded-lg w-full lg:w-1/4 md:w-full">
+    <div className="backdrop-brightness-200 px-14 lg:px-6 xl:px-14 py-8 text-center rounded-lg w-full lg:w-1/4 md:w-full">
       <h4 className="text-5xl mb-4 text-orange-500">
         {/* {value} */}
         {number}

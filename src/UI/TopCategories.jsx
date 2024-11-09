@@ -10,7 +10,7 @@ export default function TopCategories() {
       id="shop"
     >
       <SectionHeader title="Shop By Top Categories" />
-      <section className="grid grid-cols-2 md:grid-cols-3 lg:flex items-center gap-4 mt-8">
+      <section className="grid grid-cols-2 md:grid-cols-3 xl:flex items-center gap-4 mt-8">
         {CATEGORIES.map((category) => {
           return <Point key={category.name} {...category} number />;
         })}

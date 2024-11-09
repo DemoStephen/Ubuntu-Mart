@@ -33,7 +33,7 @@ const BestSeller = getBestSeller();
 const TopRated = getTopRated();
 export default function Deals() {
   return (
-    <section className="flex flex-col-reverse md:grid md:grid-cols-2 lg:grid-cols-4 py-8 md:px-[10%] gap-8">
+    <section className="flex flex-col-reverse md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 py-8 md:px-[10%] gap-8">
       <section className="md:px-0 px-[10%]">
         <h3 className="text-2xl font-semibold mb-4">Hot Deals</h3>
         <div className="flex flex-col gap-4">
@@ -60,7 +60,7 @@ export default function Deals() {
       </section>
       <section
         style={{ backgroundImage: `url(${assets})` }}
-        className="bg-center bg-cover md:rounded-lg p-8 text-center flex items-center flex-col text-slate-50"
+        className="bg-center bg-cover md:rounded-lg p-8 text-center flex items-center flex-col text-slate-50 lg:col-span-3 xl:col-span-1"
       >
         <p className="uppercase">Hot Sale</p>
         <h3 className="text-2xl my-3">
