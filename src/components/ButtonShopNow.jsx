@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
-import Icon from "./Icon";
-
+import { ArrowRight } from "./SVGs";
 export default function ButtonShopNow({ color }) {
   return (
     <a href="#shop">
@@ -10,17 +9,7 @@ export default function ButtonShopNow({ color }) {
         }`}
       >
         Shop Now
-        {!color && (
-          <Icon>
-            <path
-              d="M4 12H20M20 12L16 8M20 12L16 16"
-              stroke="white"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </Icon>
-        )}
+        {!color && <ArrowRight />}
       </button>
     </a>
   );
