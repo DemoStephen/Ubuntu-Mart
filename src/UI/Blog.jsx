@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-import Icon from "../components/Icon";
 import { CommentsIcon, PersonIcon, TagIcon } from "../components/SVGs";
 import Tagline from "../components/Tagline";
 import ViewAll from "../components/ViewAll";
@@ -19,7 +18,7 @@ export default function Blog({ image }) {
           <span>Food</span>
         </Tagline>
         <Tagline>
-          <PersonIcon/>
+          <PersonIcon />
           <span>By Admin</span>
         </Tagline>
         <Tagline>
