@@ -8,7 +8,7 @@ export default function Location() {
         <span>
           <LocationIcon />
         </span>
-        <span>Store Location: Egbeda - 344, Iyanapaja, Nigeria</span>
+        <span>Store Location: Shipeolu - 60, Palmgroove, Nigeria</span>
       </p>
       <p className="hidden md:flex items-center gap-2">
         <Select data={LANGUAGE_CURRENCY.LANGUAGES} />

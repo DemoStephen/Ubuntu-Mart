@@ -12,9 +12,7 @@ export default function Subscribe() {
         </p>
       </header>
       <section className="w-full md:w-2/3 flex md:flex-row flex-col items-center gap-6">
-        {/* <div className="md:flex hidden w-full"> */}
         <Form color />
-        {/* </div> */}
         <div className="flex items-center gap-2 md:justify-start justify-center w-full md:w-auto">
           <Facebook />
           <LinkedIn />
