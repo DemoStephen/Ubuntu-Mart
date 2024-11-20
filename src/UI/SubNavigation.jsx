@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import Contact from "../components/Contact";
 import List from "../components/List";
 import logo from "../assets/images/logo.png";
 import { Bag, LoveIcon, Menu, Person, Search } from "../components/SVGs";
-export default function SubNavigation() {
+export default function SubNavigation({ AboutUs }) {
   return (
     <nav
       aria-label="Services Sub-navigation"
@@ -23,12 +24,14 @@ export default function SubNavigation() {
         <div className="lg:hidden">
           <Menu />
         </div>
-        <div className="hidden lg:flex items-center gap-2">
-          <LoveIcon />
-          <Search />
-          <Bag />
-          <Person />
-        </div>
+        {!AboutUs && (
+          <div className="hidden lg:flex items-center gap-2">
+            <LoveIcon />
+            <Search />
+            <Bag />
+            <Person />
+          </div>
+        )}
       </div>
     </nav>
   );
