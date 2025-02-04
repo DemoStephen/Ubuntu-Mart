@@ -1,8 +1,9 @@
 /* eslint-disable react/prop-types */
 import Icon from "./Icon";
+import { handleAlert } from "../util/function";
 export default function ViewAll({ text }) {
   return (
-    <button className="flex items-center gap-2 text-orange-500">
+    <button onClick={handleAlert} className="flex items-center gap-2 text-orange-500">
       {text ? text : "View All "}
       <Icon>
         <path

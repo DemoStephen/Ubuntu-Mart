@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import { handleAlert } from "../util/function";
 export default function Form({ color }) {
   let classList = "p-2 rounded-full md:w-1/3 text-white";
   if (color) {
@@ -9,7 +10,7 @@ export default function Form({ color }) {
   return (
     <>
       <form
-        action="#"
+        onSubmit={handleAlert}
         className="flex flex-col md:flex-row md:border-2 border-slate-200 bg-slate-50 outline-none rounded-3xl md:rounded-full overflow-hidden p-1 gap-2 w-full"
       >
         <input

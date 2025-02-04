@@ -2,6 +2,7 @@
 import { CommentsIcon, PersonIcon, TagIcon } from "../components/SVGs";
 import Tagline from "../components/Tagline";
 import ViewAll from "../components/ViewAll";
+import { handleAlert } from "../util/function";
 export default function Blog({ image }) {
   return (
     <div className="bg-slate-50 rounded-lg shadow-md group">
@@ -31,7 +32,7 @@ export default function Blog({ image }) {
           Curabitur porttitor orci eget neque accumsan venenatis. Nunc
           fermentum.
         </p>
-        <a href="#">
+        <a href="#" onClick={handleAlert}>
           <ViewAll text="Read More" />
         </a>
       </div>

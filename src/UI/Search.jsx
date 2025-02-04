@@ -1,6 +1,11 @@
+import { handleAlert } from "../util/function";
+
 export default function Search() {
   return (
-    <form action="#" className="border rounded-lg w-full overflow-hidden">
+    <form
+      onSubmit={handleAlert}
+      className="border rounded-lg w-full overflow-hidden"
+    >
       <input
         className="p-3 w-2/3 outline-none"
         type="search"

@@ -1,7 +1,8 @@
 /* eslint-disable react/prop-types */
+import { handleAlert } from "../util/function";
 export default function Select({ data }) {
   return (
-    <button>
+    <button onClick={handleAlert}>
       <select
         name={data}
         className="bg-transparent flex flex-col items-center outline-none"
